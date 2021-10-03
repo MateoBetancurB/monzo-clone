@@ -1,0 +1,12 @@
+:root {
+	--blue1: #2991cc;
+	--blue2: #14233c;
+	--red: #e72141;
+	--gray: #4d5870;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: Helvetica, sans-serif;
+}
