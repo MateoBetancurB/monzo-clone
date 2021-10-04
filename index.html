@@ -9,14 +9,22 @@
 			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
 			crossorigin="anonymous"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="/styles/mobile.css" />
 		<title>Monzo - Banking made easy</title>
 	</head>
 	<body>
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<header class="header">
+			<nav class="navbar navbar-expand-lg navbar-light text-center header__nav">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="#"> <span>M</span> monzo</a>
+					<div class="header__nav--flexLogo">
+						<a class="header__nav--logo" href="#"> <span>M</span> monzo</a>
+					</div>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -42,7 +50,7 @@
 									Accounts
 								</a>
 								<ul
-									class="dropdown-menu"
+									class="dropdown-menu text-center"
 									aria-labelledby="navbarDropdownMenuLink"
 								>
 									<li>
@@ -62,6 +70,9 @@
 									<li>
 										<a class="dropdown-item" href="#">Monzo Joint Accounts</a>
 									</li>
+									<li>
+										<a class="dropdown-item" href="#">Monzo 16-17 Accounts</a>
+									</li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
@@ -73,19 +84,78 @@
 									data-bs-toggle="dropdown"
 									aria-expanded="false"
 								>
-									Dropdown link
+									Savings
 								</a>
 								<ul
-									class="dropdown-menu"
+									class="dropdown-menu text-center"
 									aria-labelledby="navbarDropdownMenuLink"
 								>
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
 									<li>
-										<a class="dropdown-item" href="#">Something else here</a>
+										<a class="dropdown-item" href="#">Saving with Monzo</a>
+									</li>
+									<li><a class="dropdown-item" href="#">Interest Rates</a></li>
+									<li>
+										<a class="dropdown-item" href="#">Cash ISAs</a>
 									</li>
 								</ul>
 							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Borrowing
+								</a>
+								<ul
+									class="dropdown-menu text-center"
+									aria-labelledby="navbarDropdownMenuLink"
+								>
+									<li>
+										<a class="dropdown-item" href="#">Monzo Flex</a>
+									</li>
+									<li><a class="dropdown-item" href="#">Overdrafts</a></li>
+									<li>
+										<a class="dropdown-item" href="#">Loans</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Features
+								</a>
+								<ul
+									class="dropdown-menu text-center"
+									aria-labelledby="navbarDropdownMenuLink"
+								>
+									<li>
+										<a class="dropdown-item" href="#">Pots</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Travelling with Monzo</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Energy switching</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Bill splitting</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Help</a>
+									</li>
+								</ul>
+							</li>
+							<button class="header__nav--button">Sign up</button>
 						</ul>
 					</div>
 				</div>
