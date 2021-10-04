@@ -3,10 +3,31 @@
 	--blue2: #14233c;
 	--red: #e72141;
 	--gray: #4d5870;
+	--white: #ffffff;
 }
 html {
 	font-size: 62.5%;
 }
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: "Roboto", sans-serif;
 }
+/* header */
+.header {
+	background-color: var(--blue2);
+}
+.header__nav--logo {
+	color: var(--white);
+	text-decoration: none;
+	font-size: 2.4rem;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+.header__nav--flexLogo {
+	/* display: flex; */
+	/* align-items: center; */
+}
+.header__nav--logo span {
+	color: var(--red);
+	font-size: 3rem;
+}
+/* header */
