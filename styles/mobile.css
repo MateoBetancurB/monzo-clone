@@ -34,4 +34,41 @@ body {
 .nav__menu--border {
 	border-color: var(--white) !important;
 }
+.header__nav--title {
+	display: block;
+	text-decoration: none;
+	color: var(--white);
+	font-size: 1.5rem;
+	padding-bottom: 20px;
+}
+.header__nav--title1 {
+	display: block;
+	text-decoration: none;
+	color: var(--white);
+	font-size: 1.5rem;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.header__nav--button {
+	background-color: var(--blue1);
+	border: 0;
+	border-radius: 40px;
+	padding: 6px 0;
+	width: 250px;
+	color: var(--white);
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin: 0 auto;
+}
+/* link-items */
+.nav__link--items {
+	background-color: var(--blue2);
+	border: 0;
+}
+.nav__link--items a {
+	color: var(--white);
+	font-size: 1.5rem;
+	padding-top: 10px;
+}
+/* link-items */
 /* header */
