@@ -15,6 +15,7 @@ body {
 .header {
 	background-color: var(--blue2);
 }
+
 .header__nav--logo {
 	color: var(--white);
 	text-decoration: none;
@@ -22,12 +23,15 @@ body {
 	font-weight: 800;
 	letter-spacing: 2px;
 }
-.header__nav--flexLogo {
-	/* display: flex; */
-	/* align-items: center; */
-}
+
 .header__nav--logo span {
 	color: var(--red);
 	font-size: 3rem;
+}
+.navbar-toggler span {
+	color: var(--white);
+}
+.nav__menu--border {
+	border-color: var(--white) !important;
 }
 /* header */
