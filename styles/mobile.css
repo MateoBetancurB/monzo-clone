@@ -119,3 +119,19 @@ body {
 }
 /* header-section1 */
 /* header */
+/* main */
+/* section2 */
+.container__section2 {
+	padding: 32px 32px;
+}
+.section2__h3 {
+	text-align: center;
+	font-size: 2.4rem;
+	font-weight: 500;
+}
+
+.section2__img {
+	width: 135px;
+	margin-top: 10px;
+}
+/* section2 */
