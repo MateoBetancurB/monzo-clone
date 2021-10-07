@@ -70,6 +70,8 @@ body {
 	font-size: 1.5rem;
 	padding-top: 10px;
 }
+/* link-items */
+/* header-announcement */
 .header__container--announcement {
 	background-color: var(--blue1);
 	height: 78px;
@@ -87,5 +89,33 @@ body {
 	color: var(--white);
 	font-weight: 400;
 }
-/* link-items */
+/* header-announcement */
+/* header-section1 */
+.header__container--section1 {
+	padding: 64px 32px;
+}
+.section1__h1 {
+	color: var(--white);
+	font-size: 3rem;
+}
+.section1__paragraph {
+	margin: 20px 0 25px 0;
+	color: var(--white);
+	font-size: 1.6rem;
+}
+.section1__button {
+	background-color: var(--blue1);
+	border: 0;
+	border-radius: 55px;
+	color: var(--white);
+	padding: 5px 15px;
+	font-size: 1.8rem;
+	width: 90%;
+	font-weight: bold;
+}
+.section1__img {
+	margin-top: 60px;
+	width: 270px;
+}
+/* header-section1 */
 /* header */
