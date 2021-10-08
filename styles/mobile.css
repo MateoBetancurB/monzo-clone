@@ -93,6 +93,7 @@ body {
 /* header-section1 */
 .header__container--section1 {
 	padding: 64px 32px;
+	width: 100%;
 }
 .section1__h1 {
 	color: var(--white);
@@ -120,9 +121,16 @@ body {
 /* header-section1 */
 /* header */
 /* main */
+.main {
+	position: relative;
+}
 /* section2 */
 .container__section2 {
+	background-color: var(--white);
 	padding: 32px 32px;
+	height: 400px;
+	position: absolute;
+	top: -120px;
 }
 .section2__h3 {
 	text-align: center;
