@@ -121,16 +121,14 @@ body {
 /* header-section1 */
 /* header */
 /* main */
-.main {
-	position: relative;
-}
+
 /* section2 */
 .container__section2 {
 	background-color: var(--white);
 	padding: 32px 32px;
-	height: 400px;
-	position: absolute;
-	top: -120px;
+	height: 300px;
+	width: 100%;
+	/* margin-top: -90px; */
 }
 .section2__h3 {
 	text-align: center;
@@ -143,3 +141,6 @@ body {
 	margin-top: 10px;
 }
 /* section2 */
+/* section3 */
+
+/* section3 */
