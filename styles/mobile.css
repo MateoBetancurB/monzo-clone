@@ -142,5 +142,52 @@ body {
 }
 /* section2 */
 /* section3 */
-
+.section3__background {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		184deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(253, 248, 226, 1) 81%,
+		rgba(253, 248, 226, 1) 100%
+	);
+}
+.section3 {
+	width: 80%;
+}
+.section3__h3 {
+	text-transform: uppercase;
+	padding: 3px 5px;
+	background-color: var(--red);
+	width: 170px;
+	border-radius: 40px;
+	color: var(--white);
+	line-height: 15px;
+}
+.section3__h3 span {
+	color: var(--white);
+	font-size: 25px;
+}
+.section3__h2 {
+	font-size: 28px;
+	margin-top: 20px;
+}
+.section3__paragraph {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.section3__button {
+	background-color: var(--blue1);
+	padding: 10px 30px;
+	color: var(--white);
+	font-size: 1.6rem;
+	font-weight: bold;
+	border: 0;
+	border-radius: 40px;
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+.section3__img {
+	margin-top: 35px;
+	width: 256px;
+}
 /* section3 */
