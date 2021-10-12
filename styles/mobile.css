@@ -4,6 +4,7 @@
 	--red: #e72141;
 	--gray: #4d5870;
 	--white: #ffffff;
+	--green: #e9fde8;
 }
 html {
 	font-size: 62.5%;
@@ -191,3 +192,46 @@ body {
 	width: 256px;
 }
 /* section3 */
+/* section4 */
+.section4__background {
+	background: rgb(233, 253, 232);
+	background: radial-gradient(
+		circle,
+		rgba(233, 253, 232, 1) 14%,
+		rgba(255, 255, 255, 1) 77%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+.section4 {
+	width: 80%;
+	margin-top: 60px;
+}
+/* section4 */
+/* section5 */
+.section5 {
+	background-color: var(--green);
+}
+.section5__container {
+	padding-top: 64px;
+	width: 80%;
+}
+.section5__h2 {
+	margin-top: 16px;
+	font-size: 2.8rem;
+}
+.section5__paragraph {
+	margin-top: 16px;
+	font-size: 1.6rem;
+}
+.section5__button {
+	border: 0;
+	width: 100%;
+	padding: 8px 50px;
+	background-color: var(--blue1);
+	color: var(--white);
+	border-radius: 40px;
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-top: 24px;
+}
+/* section5 */
