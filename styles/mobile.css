@@ -3,7 +3,8 @@
 	--blue2: #14233c;
 	--red: #e72141;
 	--gray: #4d5870;
-	--white: #ffffff;
+	--white1: #ffffff;
+	--white2: #f7f7f7;
 	--green: #e9fde8;
 }
 html {
@@ -18,7 +19,7 @@ body {
 }
 
 .header__nav--logo {
-	color: var(--white);
+	color: var(--white1);
 	text-decoration: none;
 	font-size: 2.4rem;
 	font-weight: 800;
@@ -30,22 +31,22 @@ body {
 	font-size: 3rem;
 }
 .navbar-toggler span {
-	color: var(--white);
+	color: var(--white1);
 }
 .nav__menu--border {
-	border-color: var(--white) !important;
+	border-color: var(--white1) !important;
 }
 .header__nav--title {
 	display: block;
 	text-decoration: none;
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.5rem;
 	padding-bottom: 20px;
 }
 .header__nav--title1 {
 	display: block;
 	text-decoration: none;
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.5rem;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -56,7 +57,7 @@ body {
 	border-radius: 40px;
 	padding: 6px 0;
 	width: 250px;
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.8rem;
 	font-weight: bold;
 	margin: 0 auto;
@@ -67,7 +68,7 @@ body {
 	border: 0;
 }
 .nav__link--items a {
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.5rem;
 	padding-top: 10px;
 }
@@ -82,12 +83,12 @@ body {
 	text-align: center;
 }
 .header__announcement--heading3 {
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.8rem;
 	font-weight: 600;
 }
 .header__announcement--link {
-	color: var(--white);
+	color: var(--white1);
 	font-weight: 400;
 }
 /* header-announcement */
@@ -97,19 +98,19 @@ body {
 	width: 100%;
 }
 .section1__h1 {
-	color: var(--white);
+	color: var(--white1);
 	font-size: 3rem;
 }
 .section1__paragraph {
 	margin: 20px 0 25px 0;
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.6rem;
 }
 .section1__button {
 	background-color: var(--blue1);
 	border: 0;
 	border-radius: 55px;
-	color: var(--white);
+	color: var(--white1);
 	padding: 5px 15px;
 	font-size: 1.8rem;
 	width: 90%;
@@ -125,7 +126,7 @@ body {
 
 /* section2 */
 .container__section2 {
-	background-color: var(--white);
+	background-color: var(--white1);
 	padding: 32px 32px;
 	height: 300px;
 	width: 100%;
@@ -161,11 +162,11 @@ body {
 	background-color: var(--red);
 	width: 170px;
 	border-radius: 40px;
-	color: var(--white);
+	color: var(--white1);
 	line-height: 15px;
 }
 .section3__h3 span {
-	color: var(--white);
+	color: var(--white1);
 	font-size: 25px;
 }
 .section3__h2 {
@@ -179,7 +180,7 @@ body {
 .section3__button {
 	background-color: var(--blue1);
 	padding: 10px 30px;
-	color: var(--white);
+	color: var(--white1);
 	font-size: 1.6rem;
 	font-weight: bold;
 	border: 0;
@@ -209,7 +210,7 @@ body {
 /* section4 */
 /* section5 */
 .section5 {
-	background-color: var(--green);
+	/* background-color: var(--green); */
 }
 .section5__container {
 	padding-top: 64px;
@@ -228,10 +229,22 @@ body {
 	width: 100%;
 	padding: 8px 50px;
 	background-color: var(--blue1);
-	color: var(--white);
+	color: var(--white1);
 	border-radius: 40px;
 	font-size: 1.6rem;
 	font-weight: bold;
 	margin-top: 24px;
 }
+.section5__container figure {
+	margin: 0 auto;
+}
+.section5__img {
+	width: 100%;
+	margin-top: 35px;
+}
 /* section5 */
+/* section6 */
+.section6 {
+	background-color: var(--white2);
+}
+/* section6 */
