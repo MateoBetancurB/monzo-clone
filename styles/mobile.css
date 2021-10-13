@@ -248,3 +248,34 @@ body {
 	background-color: var(--white2);
 }
 /* section6 */
+/* section7 */
+.section7 {
+	background-color: var(--white1);
+}
+/* section7 */
+/* section8 */
+.section8 {
+	background-color: var(--white2);
+}
+.section8__button {
+	margin-top: 15px;
+	border: 0;
+	border-radius: 40px;
+	padding: 10px 0px;
+	width: 100%;
+	color: var(--white1);
+	background-color: var(--blue1);
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+/* section8 */
+/* section9 */
+.section9 {
+	background-color: var(--white1);
+}
+/* section9 */
+/* section10 */
+.section10 {
+	background-color: var(--white2);
+}
+/* section10 */
