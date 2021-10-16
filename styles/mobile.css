@@ -277,5 +277,47 @@ body {
 /* section10 */
 .section10 {
 	background-color: var(--white2);
+	padding-bottom: 64px;
 }
 /* section10 */
+/* section11 */
+.section11 {
+	background-color: var(--white);
+	padding-top: 64px;
+}
+.section11__container {
+	width: 90%;
+}
+.section11__h2 {
+	font-size: 2.4rem;
+	color: var(--blue2);
+	margin-bottom: 16px;
+}
+.section11__paragraph {
+	color: var(--blue2);
+	font-size: 1.6rem;
+	margin-bottom: 16px;
+}
+.section11__paragraph:nth-child(5) {
+	margin-top: 45px;
+}
+.section11__container--img img {
+	width: 256px;
+	height: 256px;
+	margin-top: 30px;
+	border: 1px solid #cbcbcb;
+}
+.section11__button {
+	width: 95%;
+	height: 68px;
+	padding: 8px 16px;
+	margin-top: 24px;
+	margin-bottom: 34px;
+	border: 0;
+	border-radius: 40px;
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: var(--blue1);
+	background-color: #e9f4fa;
+}
+/* section11 */
