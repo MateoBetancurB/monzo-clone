@@ -321,3 +321,25 @@ body {
 	background-color: #e9f4fa;
 }
 /* section11 */
+/* section12 */
+.section12 {
+	background-color: var(--white2);
+}
+.section12__container {
+	width: 90%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.section12__h3 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+.section12__paragraph {
+	font-size: 1.6rem;
+	margin-top: 16px;
+	text-align: center;
+}
+.section12__container--img img {
+	width: 135px;
+}
+/* section12 */
