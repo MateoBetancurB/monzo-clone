@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+	.section1__button {
+		width: 50%;
+	}
+}
+@media (min-width: 768px) {
+	.container__section2 {
+		height: 230px;
+	}
+}
+@media (min-width: 768px) {
+	.section3__h3 {
+		width: 200px;
+		height: 40px;
+		line-height: 25px;
+	}
+}
+@media (min-width: 768px) {
+	.section3__button {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.section3__img {
+		width: 500px;
+	}
+}
