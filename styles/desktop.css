@@ -1,0 +1,24 @@
+@media (min-width: 1024px) {
+	.header__container--section1 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+@media (min-width: 1024px) {
+	.header__container--section1 div {
+		margin: auto;
+		width: 270px;
+	}
+}
+@media (min-width: 1024px) {
+	.section1__button {
+		width: 275px;
+	}
+}
+@media (min-width: 1024px) {
+	.section1__figure img {
+		width: 432px;
+		height: 471px;
+	}
+}
