@@ -73,3 +73,24 @@
 		display: flex;
 	}
 }
+@media (min-width: 1024px) {
+	.flexbox__section11 {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		margin-top: 70px;
+		margin-bottom: 100px;
+	}
+}
+@media (min-width: 1024px) {
+	.section11__container--img img {
+		width: 432px;
+		height: 432px;
+	}
+}
+@media (min-width: 1024px) {
+	.section11__button {
+		height: 43px;
+		width: fit-content;
+	}
+}
