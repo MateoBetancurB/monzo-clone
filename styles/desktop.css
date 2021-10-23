@@ -12,7 +12,8 @@
 	}
 }
 @media (min-width: 1024px) {
-	.section1__button {
+	.section1__button,
+	.section3__button {
 		width: 275px;
 	}
 }
@@ -20,5 +21,33 @@
 	.section1__figure img {
 		width: 432px;
 		height: 471px;
+	}
+}
+@media (min-width: 1024px) {
+	.section3 {
+		width: 928px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+@media (min-width: 1024px) {
+	.section3__paragraph {
+		width: 432px;
+	}
+}
+@media (min-width: 1024px) {
+	.section3__img {
+		width: 354px;
+		height: 432px;
+	}
+}
+@media (min-width: 1024px) {
+	.section4 {
+		width: 928px;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
 	}
 }
